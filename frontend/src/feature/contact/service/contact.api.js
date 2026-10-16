@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const api = axios.create({
-    baseURL: "http://localhost:3000/api/contact",
+    baseURL: "https://contact-manager-4va2.onrender.com/api/contact",
     timeout: 10000,
     headers: {
         "Content-Type": "application/json"
